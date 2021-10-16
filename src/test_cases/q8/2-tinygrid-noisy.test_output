@@ -1,0 +1,80 @@
+==================== Iteration 0 ====================
+Weights at iteration 0 are correct.   Student/correct solution:
+
+{((0, 0), 'exit'): 0,
+ ((0, 1), 'east'): 0,
+ ((0, 1), 'north'): 0,
+ ((0, 1), 'south'): 0,
+ ((0, 1), 'west'): 0,
+ ((0, 2), 'exit'): 0}
+
+Q-Values at iteration 0 for action 'north' are NOT correct.   Student solution:
+	q_values_k_0_action_north: """
+           illegal
+            1.0000
+           illegal
+"""
+
+   Correct solution:
+	q_values_k_0_action_north: """
+           illegal
+            0.0000
+           illegal
+"""
+
+Q-Values at iteration 0 for action 'west' are NOT correct.   Student solution:
+	q_values_k_0_action_west: """
+           illegal
+            1.0000
+           illegal
+"""
+
+   Correct solution:
+	q_values_k_0_action_west: """
+           illegal
+            0.0000
+           illegal
+"""
+
+Q-Values at iteration 0 for action 'south' are NOT correct.   Student solution:
+	q_values_k_0_action_south: """
+           illegal
+            1.0000
+           illegal
+"""
+
+   Correct solution:
+	q_values_k_0_action_south: """
+           illegal
+            0.0000
+           illegal
+"""
+
+Q-Values at iteration 0 for action 'exit' are NOT correct.   Student solution:
+	q_values_k_0_action_exit: """
+            1.0000
+           illegal
+            1.0000
+"""
+
+   Correct solution:
+	q_values_k_0_action_exit: """
+            0.0000
+           illegal
+            0.0000
+"""
+
+Q-Values at iteration 0 for action 'east' are NOT correct.   Student solution:
+	q_values_k_0_action_east: """
+           illegal
+            1.0000
+           illegal
+"""
+
+   Correct solution:
+	q_values_k_0_action_east: """
+           illegal
+            0.0000
+           illegal
+"""
+
